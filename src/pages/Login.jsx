@@ -16,7 +16,7 @@ const Login = () => {
       setIsLoading(true)
    setError(null)
    
-   const response = await ax.post('http://localhost:4000/api/user/login' ,{email,password} )
+   const response = await ax.post('https://backendwoorkapp-r6u1.vercel.app/api/user/login' ,{email,password} )
  
   
  // save the user to local storage
